@@ -1,0 +1,10 @@
+
+services:
+  - type: web
+    name: shiduch-ai-demo
+    runtime: python
+    buildCommand: ""
+    startCommand: "pip install flask && python app.py"
+    plan: free
+    autoDeploy: true
+    envVars: []
